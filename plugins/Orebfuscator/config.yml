@@ -26,7 +26,7 @@ obfuscation:
     minY: -2032
     maxY: 2031
     worlds:
-    - world
+    - Classic
     hiddenBlocks:
     - minecraft:emerald_ore
     - minecraft:deepslate_emerald_ore
