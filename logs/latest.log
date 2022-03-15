@@ -1,139 +1,88 @@
-[22:31:29] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22:31:29] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[22:31:29] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
-[22:31:29] [Worker-Main-4/INFO]: Loaded 7 recipes
-[22:31:30] [Server thread/INFO]: Starting minecraft server version 1.18.1
-[22:31:30] [Server thread/INFO]: Loading properties
-[22:31:30] [Server thread/INFO]: This server is running Paper version git-Paper-216 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 30cb7d0)
-[22:31:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:31:30] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:31:30] [Server thread/INFO]: Default game type: SURVIVAL
-[22:31:30] [Server thread/INFO]: Generating keypair
-[22:31:30] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:31:30] [Server thread/INFO]: Using default channel type
-[22:31:30] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[22:31:30] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[22:31:31] [Server thread/INFO]: [UserLogin] Loading UserLogin v2.13.1
-[22:31:31] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
-[22:31:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:31:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:31:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:31:31] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:31:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:31:31] [Server thread/INFO]: Preparing level "world"
-[22:31:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:31:33] [Server thread/INFO]: Time elapsed: 130 ms
-[22:31:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[22:31:33] [Server thread/INFO]: Time elapsed: 272 ms
-[22:31:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[22:31:33] [Server thread/INFO]: Time elapsed: 370 ms
-[22:31:33] [Server thread/INFO]: [UserLogin] Enabling UserLogin v2.13.1
-[22:31:34] [Server thread/INFO]: [UserLogin] UserLogin v2.13.1 enabled
-[22:31:34] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[22:31:34] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[22:31:34] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[22:31:34] [Server thread/WARN]: [Multiverse-Core] Cannot load worlds.yml
-[22:31:34] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: FLAT & seed: -1728405843107503052
-[22:31:34] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 8172634283223779434
-[22:31:34] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
-[22:31:34] [Server thread/WARN]: [Multiverse-Core] Original Location: X: 0 Y: 66 Z: 0 P: 0 Y: 0 
-[22:31:37] [Server thread/INFO]: [Multiverse-Core] New Spawn for 'world_nether' is located at: world_nether:8.50,64.00,8.50:0.00:0.00
-[22:31:37] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 8172634283223779434
-[22:31:37] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
-[22:31:37] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[22:31:37] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[22:31:37] [Server thread/INFO]: Starting GS4 status listener
-[22:31:37] [Server thread/INFO]: Thread Query Listener started
-[22:31:37] [Server thread/INFO]: Starting remote control listener
-[22:31:37] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[22:31:37] [Server thread/INFO]: Thread RCON Listener started
-[22:31:37] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[22:31:37] [Server thread/INFO]: Running delayed init tasks
-[22:31:37] [Server thread/INFO]: Done (6.399s)! For help, type "help"
-[22:31:37] [Server thread/INFO]: Timings Reset
-[22:31:37] [Craft Scheduler Thread - 1 - UserLogin/INFO]: [UserLogin] Running latest version! (v2.13.1)
-[22:31:42] [User Authenticator #1/INFO]: UUID of player LJChuello is 965f3bdf-7172-38df-a962-eb12e66612ab
-[22:31:44] [Server thread/INFO]: LJChuello[/127.0.0.1:65275] logged in with entity id 61 at ([world]-290.0, 16.0, -651.0)
-[22:31:50] [Server thread/INFO]: LJChuello issued server command: /mv create
-[22:32:06] [Server thread/INFO]: LJChuello issued server command: /mv create
-[22:33:22] [Server thread/INFO]: LJChuello issued server command: /mv create classicpvp normal -s n3b3P2kvprHKdlY1qPzOliyYBYCwNfVaKmfV
-[22:33:22] [Server thread/INFO]: LJChuello: Starting creation of world 'classicpvp'...
-[22:33:22] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'classicpvp' - Env: NORMAL - Type: NORMAL & seed: -1600591687
-[22:33:24] [Server thread/INFO]: Preparing start region for dimension minecraft:classicpvp
-[22:33:25] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[22:33:25] [Server thread/INFO]: Time elapsed: 270 ms
-[22:33:25] [Server thread/INFO]: LJChuello: Complete!
-[22:33:43] [Server thread/INFO]: LJChuello issued server command: /mv tp classicpvp
-[22:34:01] [Server thread/WARN]: LJChuello was kicked for floating too long!
-[22:34:01] [Server thread/INFO]: LJChuello lost connection: Flying is not enabled on this server
-[22:34:01] [Server thread/INFO]: LJChuello left the game
-[22:34:03] [User Authenticator #2/INFO]: UUID of player LJChuello is 965f3bdf-7172-38df-a962-eb12e66612ab
-[22:34:03] [Server thread/INFO]: LJChuello[/127.0.0.1:65312] logged in with entity id 619 at ([classicpvp]0.0, 68.0, 112.0)
-[22:34:25] [Server thread/INFO]: LJChuello issued server command: /mv create
-[22:34:45] [Server thread/INFO]: LJChuello issued server command: /mv create classicnonpvp -s n3b3P2kvprHKdlY1qPzOliyYBYCwNfVaKmfV
-[22:34:56] [Server thread/INFO]: LJChuello issued server command: /mv create classicnonpvp normal -s n3b3P2kvprHKdlY1qPzOliyYBYCwNfVaKmfV
-[22:34:56] [Server thread/INFO]: LJChuello: Starting creation of world 'classicnonpvp'...
-[22:34:56] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'classicnonpvp' - Env: NORMAL - Type: NORMAL & seed: -1600591687
-[22:34:58] [Server thread/INFO]: Preparing start region for dimension minecraft:classicnonpvp
-[22:34:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:34:58] [Server thread/INFO]: Time elapsed: 284 ms
-[22:34:58] [Server thread/INFO]: LJChuello: Complete!
-[22:35:08] [Server thread/INFO]: LJChuello issued server command: /mv tp classicnonpvp
-[22:35:26] [Server thread/INFO]: LJChuello issued server command: /mv tp classicpvp
-[22:36:01] [Server thread/INFO]: LJChuello issued server command: /mv delete
-[22:36:12] [Server thread/INFO]: LJChuello issued server command: /mv delete classicnonpvp
-[22:36:23] [Server thread/INFO]: LJChuello issued server command: /mv confirm
-[22:36:25] [Server thread/INFO]: LJChuello issued server command: /mv delete classicnonpvp
-[22:36:27] [Server thread/INFO]: LJChuello issued server command: /mv confirm
-[22:36:27] [Server thread/INFO]: [Multiverse-Core] World 'classicnonpvp' was unloaded from Multiverse.
-[22:36:28] [Server thread/INFO]: [Multiverse-Core] World 'classicnonpvp' was unloaded from Bukkit.
-[22:36:28] [Server thread/INFO]: [Multiverse-Core] World 'classicnonpvp' was removed from config.yml
-[22:36:28] [Server thread/INFO]: [Multiverse-Core] World 'classicnonpvp' was DELETED.
-[22:36:43] [Server thread/INFO]: LJChuello issued server command: /mv delete classicpvp
-[22:36:45] [Server thread/INFO]: LJChuello issued server command: /mv confirm
-[22:36:45] [Server thread/INFO]: [Multiverse-Core] World 'classicpvp' was unloaded from Multiverse.
-[22:36:46] [Server thread/INFO]: [Multiverse-Core] World 'classicpvp' was unloaded from Bukkit.
-[22:36:46] [Server thread/INFO]: [Multiverse-Core] World 'classicpvp' was removed from config.yml
-[22:36:46] [Server thread/INFO]: [Multiverse-Core] World 'classicpvp' was DELETED.
-[22:36:57] [Server thread/INFO]: LJChuello issued server command: /mv create
-[22:37:08] [Server thread/INFO]: LJChuello issued server command: /mv create classicpvp normal
-[22:37:08] [Server thread/INFO]: LJChuello: Starting creation of world 'classicpvp'...
-[22:37:08] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'classicpvp' - Env: NORMAL - Type: NORMAL
-[22:37:10] [Server thread/INFO]: Preparing start region for dimension minecraft:classicpvp
-[22:37:10] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[22:37:10] [Server thread/INFO]: Time elapsed: 265 ms
-[22:37:10] [Server thread/INFO]: LJChuello: Complete!
-[22:37:20] [Server thread/INFO]: LJChuello issued server command: /mv create classicnonpvp normal
-[22:37:20] [Server thread/INFO]: LJChuello: Starting creation of world 'classicnonpvp'...
-[22:37:20] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'classicnonpvp' - Env: NORMAL - Type: NORMAL
-[22:37:22] [Server thread/INFO]: Preparing start region for dimension minecraft:classicnonpvp
-[22:37:22] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[22:37:22] [Server thread/INFO]: Time elapsed: 229 ms
-[22:37:22] [Server thread/INFO]: LJChuello: Complete!
-[22:39:28] [Server thread/INFO]: CONSOLE: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
-[22:39:34] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[22:39:34] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[22:39:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:39:34] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:39:34] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
-[22:39:34] [Server thread/INFO]: [UserLogin] Disabling UserLogin v2.13.1
-[22:39:34] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[22:39:34] [Server thread/INFO]: Loaded 7 recipes
-[22:39:35] [Server thread/INFO]: [UserLogin] Loading UserLogin v2.13.1
-[22:39:35] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
-[22:39:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:39:35] [Server thread/INFO]: [UserLogin] Enabling UserLogin v2.13.1
-[22:39:35] [Server thread/INFO]: [UserLogin] UserLogin v2.13.1 enabled
-[22:39:35] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[22:39:35] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[22:39:35] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[22:39:35] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
-[22:39:35] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[22:39:35] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[22:39:35] [Server thread/INFO]: CONSOLE: Reload complete.
-[22:39:35] [Server thread/INFO]: Timings Reset
-[22:39:35] [Craft Scheduler Thread - 6 - UserLogin/INFO]: [UserLogin] Running latest version! (v2.13.1)
-[22:39:54] [Server thread/INFO]: LJChuello lost connection: Disconnected
-[22:39:54] [Server thread/INFO]: LJChuello left the game
-[22:39:55] [User Authenticator #3/INFO]: UUID of player LJChuello is 965f3bdf-7172-38df-a962-eb12e66612ab
-[22:39:55] [Server thread/INFO]: LJChuello[/127.0.0.1:65364] logged in with entity id 1772 at ([world]-290.0, 16.0, -651.0)
+[23:05:45] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23:05:45] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
+[23:05:45] [Worker-Main-4/INFO]: Loaded 7 recipes
+[23:05:46] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[23:05:46] [Server thread/INFO]: Loading properties
+[23:05:46] [Server thread/INFO]: This server is running Paper version git-Paper-216 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 30cb7d0)
+[23:05:47] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:05:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:05:47] [Server thread/INFO]: Default game type: SURVIVAL
+[23:05:47] [Server thread/INFO]: Generating keypair
+[23:05:47] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:05:47] [Server thread/INFO]: Using default channel type
+[23:05:47] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[23:05:47] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[23:05:47] [Server thread/INFO]: [UserLogin] Loading UserLogin v2.13.1
+[23:05:47] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[23:05:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:05:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:05:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:05:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:05:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:05:47] [Server thread/INFO]: Preparing level "world"
+[23:05:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:05:48] [Server thread/INFO]: Time elapsed: 209 ms
+[23:05:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[23:05:48] [Server thread/INFO]: Time elapsed: 109 ms
+[23:05:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[23:05:48] [Server thread/INFO]: Time elapsed: 88 ms
+[23:05:48] [Server thread/INFO]: [UserLogin] Enabling UserLogin v2.13.1
+[23:05:48] [Server thread/INFO]: [UserLogin] UserLogin v2.13.1 enabled
+[23:05:48] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[23:05:48] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[23:05:48] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[23:05:50] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
+[23:05:50] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[23:05:50] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[23:05:50] [Server thread/INFO]: Starting GS4 status listener
+[23:05:50] [Server thread/INFO]: Thread Query Listener started
+[23:05:50] [Server thread/INFO]: Starting remote control listener
+[23:05:50] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[23:05:50] [Server thread/INFO]: Thread RCON Listener started
+[23:05:50] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[23:05:50] [Server thread/INFO]: Running delayed init tasks
+[23:05:50] [Server thread/INFO]: Done (3.531s)! For help, type "help"
+[23:05:50] [Server thread/INFO]: Timings Reset
+[23:05:51] [Craft Scheduler Thread - 1 - UserLogin/INFO]: [UserLogin] Running latest version! (v2.13.1)
+[23:05:52] [User Authenticator #1/INFO]: UUID of player LJChuello is 965f3bdf-7172-38df-a962-eb12e66612ab
+[23:05:52] [Server thread/INFO]: LJChuello[/127.0.0.1:65426] logged in with entity id 1 at ([world]-290.0, 16.0, -651.0)
+[23:05:58] [Server thread/INFO]: From the console, you must specify a player to teleport
+[23:06:04] [Server thread/INFO]: LJChuello issued server command: /mv tp classicpvp
+[23:06:05] [Server thread/WARN]: UUID of added entity already exists: EntityChicken['Chicken'/99, uuid='56c09a7c-7e1e-482f-ada9-410fc4b4f382', l='ServerLevel[classicpvp]', x=-93.13, y=70.00, z=100.22, cpos=[-6, 6], tl=11835, v=false]
+[23:06:08] [Server thread/WARN]: UUID of added entity already exists: EntityChicken['Chicken'/197, uuid='56c09a7c-7e1e-482f-ada9-410fc4b4f382', l='ServerLevel[classicpvp]', x=-100.34, y=70.00, z=97.65, cpos=[-7, 6], tl=17835, v=false]
+[23:06:12] [Server thread/WARN]: LJChuello was kicked for floating too long!
+[23:06:12] [Server thread/INFO]: LJChuello lost connection: Flying is not enabled on this server
+[23:06:12] [Server thread/INFO]: LJChuello left the game
+[23:06:13] [User Authenticator #1/INFO]: UUID of player LJChuello is 965f3bdf-7172-38df-a962-eb12e66612ab
+[23:06:13] [Server thread/INFO]: LJChuello[/127.0.0.1:65428] logged in with entity id 404 at ([classicpvp]0.0, 65.0, -30.0)
+[23:06:19] [Server thread/INFO]: From the console, you must specify a player to teleport
+[23:07:13] [Server thread/INFO]: CONSOLE: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[23:07:16] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[23:07:16] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[23:07:16] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:07:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:07:16] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[23:07:16] [Server thread/INFO]: [UserLogin] Disabling UserLogin v2.13.1
+[23:07:16] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[23:07:17] [Server thread/INFO]: Loaded 7 recipes
+[23:07:17] [Server thread/INFO]: [UserLogin] Loading UserLogin v2.13.1
+[23:07:17] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[23:07:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:07:17] [Server thread/INFO]: [UserLogin] Enabling UserLogin v2.13.1
+[23:07:17] [Server thread/INFO]: [UserLogin] UserLogin v2.13.1 enabled
+[23:07:17] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[23:07:17] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[23:07:17] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[23:07:17] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
+[23:07:17] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[23:07:17] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[23:07:17] [Server thread/INFO]: CONSOLE: Reload complete.
+[23:07:17] [Server thread/INFO]: Timings Reset
+[23:07:17] [Craft Scheduler Thread - 6 - UserLogin/INFO]: [UserLogin] Running latest version! (v2.13.1)
+[23:07:20] [Server thread/INFO]: LJChuello lost connection: Disconnected
+[23:07:20] [Server thread/INFO]: LJChuello left the game
+[23:07:21] [User Authenticator #2/INFO]: UUID of player LJChuello is 965f3bdf-7172-38df-a962-eb12e66612ab
+[23:07:21] [Server thread/INFO]: LJChuello[/127.0.0.1:65433] logged in with entity id 531 at ([classicpvp]0.0, 65.0, -30.0)
+[23:07:26] [Server thread/INFO]: From the console, you must specify a player to teleport
+[23:07:34] [Server thread/INFO]: LJChuello fell from a high place
+[23:07:44] [Server thread/INFO]: LJChuello fell from a high place

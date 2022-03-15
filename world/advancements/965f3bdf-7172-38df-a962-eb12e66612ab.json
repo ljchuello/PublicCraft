@@ -55,8 +55,11 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:birch_forest": "2022-03-14 23:06:08 -0500",
+      "minecraft:beach": "2022-03-14 23:06:09 -0500",
       "minecraft:river": "2022-03-14 22:33:53 -0500",
       "minecraft:stony_shore": "2022-03-14 22:33:52 -0500",
+      "minecraft:forest": "2022-03-14 23:06:05 -0500",
       "minecraft:savanna": "2022-03-14 22:33:44 -0500",
       "minecraft:plains": "2022-03-14 22:28:28 -0500"
     },
