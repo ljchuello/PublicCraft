@@ -29,7 +29,7 @@ repeatWelcomeMessage: -1
 
 # A list of commands that will be executed when a player
 # logs in. Useful for adding extra functionality
-loginCommands: []
+loginCommands: [ ]
 
 # Kick players after some time (seconds)
 # Set as -1 to disable
@@ -125,7 +125,7 @@ bungeeCord:
   enabled: false
 
   # Server to send the player to when logged in
-  targetServer: 'world'
+  targetServer: 'LOBBY'
 
   # Enable auto-login
   # This allows players to be automatically logged in

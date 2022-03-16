@@ -1,88 +1,39 @@
-[23:05:45] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[23:05:45] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
-[23:05:45] [Worker-Main-4/INFO]: Loaded 7 recipes
-[23:05:46] [Server thread/INFO]: Starting minecraft server version 1.18.1
-[23:05:46] [Server thread/INFO]: Loading properties
-[23:05:46] [Server thread/INFO]: This server is running Paper version git-Paper-216 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 30cb7d0)
-[23:05:47] [Server thread/INFO]: Using 4 threads for Netty based IO
-[23:05:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[23:05:47] [Server thread/INFO]: Default game type: SURVIVAL
-[23:05:47] [Server thread/INFO]: Generating keypair
-[23:05:47] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:05:47] [Server thread/INFO]: Using default channel type
-[23:05:47] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[23:05:47] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[23:05:47] [Server thread/INFO]: [UserLogin] Loading UserLogin v2.13.1
-[23:05:47] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
-[23:05:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[23:05:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23:05:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[23:05:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23:05:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[23:05:47] [Server thread/INFO]: Preparing level "world"
-[23:05:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[23:05:48] [Server thread/INFO]: Time elapsed: 209 ms
-[23:05:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[23:05:48] [Server thread/INFO]: Time elapsed: 109 ms
-[23:05:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[23:05:48] [Server thread/INFO]: Time elapsed: 88 ms
-[23:05:48] [Server thread/INFO]: [UserLogin] Enabling UserLogin v2.13.1
-[23:05:48] [Server thread/INFO]: [UserLogin] UserLogin v2.13.1 enabled
-[23:05:48] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[23:05:48] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[23:05:48] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[23:05:50] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
-[23:05:50] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[23:05:50] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[23:05:50] [Server thread/INFO]: Starting GS4 status listener
-[23:05:50] [Server thread/INFO]: Thread Query Listener started
-[23:05:50] [Server thread/INFO]: Starting remote control listener
-[23:05:50] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[23:05:50] [Server thread/INFO]: Thread RCON Listener started
-[23:05:50] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[23:05:50] [Server thread/INFO]: Running delayed init tasks
-[23:05:50] [Server thread/INFO]: Done (3.531s)! For help, type "help"
-[23:05:50] [Server thread/INFO]: Timings Reset
-[23:05:51] [Craft Scheduler Thread - 1 - UserLogin/INFO]: [UserLogin] Running latest version! (v2.13.1)
-[23:05:52] [User Authenticator #1/INFO]: UUID of player LJChuello is 965f3bdf-7172-38df-a962-eb12e66612ab
-[23:05:52] [Server thread/INFO]: LJChuello[/127.0.0.1:65426] logged in with entity id 1 at ([world]-290.0, 16.0, -651.0)
-[23:05:58] [Server thread/INFO]: From the console, you must specify a player to teleport
-[23:06:04] [Server thread/INFO]: LJChuello issued server command: /mv tp classicpvp
-[23:06:05] [Server thread/WARN]: UUID of added entity already exists: EntityChicken['Chicken'/99, uuid='56c09a7c-7e1e-482f-ada9-410fc4b4f382', l='ServerLevel[classicpvp]', x=-93.13, y=70.00, z=100.22, cpos=[-6, 6], tl=11835, v=false]
-[23:06:08] [Server thread/WARN]: UUID of added entity already exists: EntityChicken['Chicken'/197, uuid='56c09a7c-7e1e-482f-ada9-410fc4b4f382', l='ServerLevel[classicpvp]', x=-100.34, y=70.00, z=97.65, cpos=[-7, 6], tl=17835, v=false]
-[23:06:12] [Server thread/WARN]: LJChuello was kicked for floating too long!
-[23:06:12] [Server thread/INFO]: LJChuello lost connection: Flying is not enabled on this server
-[23:06:12] [Server thread/INFO]: LJChuello left the game
-[23:06:13] [User Authenticator #1/INFO]: UUID of player LJChuello is 965f3bdf-7172-38df-a962-eb12e66612ab
-[23:06:13] [Server thread/INFO]: LJChuello[/127.0.0.1:65428] logged in with entity id 404 at ([classicpvp]0.0, 65.0, -30.0)
-[23:06:19] [Server thread/INFO]: From the console, you must specify a player to teleport
-[23:07:13] [Server thread/INFO]: CONSOLE: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
-[23:07:16] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[23:07:16] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[23:07:16] [Server thread/INFO]: Using 4 threads for Netty based IO
-[23:07:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[23:07:16] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
-[23:07:16] [Server thread/INFO]: [UserLogin] Disabling UserLogin v2.13.1
-[23:07:16] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[23:07:17] [Server thread/INFO]: Loaded 7 recipes
-[23:07:17] [Server thread/INFO]: [UserLogin] Loading UserLogin v2.13.1
-[23:07:17] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
-[23:07:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[23:07:17] [Server thread/INFO]: [UserLogin] Enabling UserLogin v2.13.1
-[23:07:17] [Server thread/INFO]: [UserLogin] UserLogin v2.13.1 enabled
-[23:07:17] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[23:07:17] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[23:07:17] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[23:07:17] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
-[23:07:17] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[23:07:17] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[23:07:17] [Server thread/INFO]: CONSOLE: Reload complete.
-[23:07:17] [Server thread/INFO]: Timings Reset
-[23:07:17] [Craft Scheduler Thread - 6 - UserLogin/INFO]: [UserLogin] Running latest version! (v2.13.1)
-[23:07:20] [Server thread/INFO]: LJChuello lost connection: Disconnected
-[23:07:20] [Server thread/INFO]: LJChuello left the game
-[23:07:21] [User Authenticator #2/INFO]: UUID of player LJChuello is 965f3bdf-7172-38df-a962-eb12e66612ab
-[23:07:21] [Server thread/INFO]: LJChuello[/127.0.0.1:65433] logged in with entity id 531 at ([classicpvp]0.0, 65.0, -30.0)
-[23:07:26] [Server thread/INFO]: From the console, you must specify a player to teleport
-[23:07:34] [Server thread/INFO]: LJChuello fell from a high place
-[23:07:44] [Server thread/INFO]: LJChuello fell from a high place
+[17:23:56] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:23:56] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
+[17:23:56] [Worker-Main-4/INFO]: Loaded 7 recipes
+[17:23:57] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[17:23:57] [Server thread/INFO]: Loading properties
+[17:23:57] [Server thread/INFO]: This server is running Paper version git-Paper-216 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 30cb7d0)
+[17:23:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:23:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:23:57] [Server thread/INFO]: Default game type: SURVIVAL
+[17:23:57] [Server thread/INFO]: Generating keypair
+[17:23:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:23:57] [Server thread/INFO]: Using default channel type
+[17:23:57] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[17:23:57] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[17:23:58] [Server thread/INFO]: [UserLogin] Loading UserLogin v2.13.1
+[17:23:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:23:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:23:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:23:58] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:23:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:23:58] [Server thread/INFO]: Preparing level "world"
+[17:23:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:23:58] [Server thread/INFO]: Time elapsed: 160 ms
+[17:23:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:23:59] [Server thread/INFO]: Time elapsed: 67 ms
+[17:23:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:23:59] [Server thread/INFO]: Time elapsed: 83 ms
+[17:23:59] [Server thread/INFO]: [UserLogin] Enabling UserLogin v2.13.1
+[17:23:59] [Server thread/INFO]: [UserLogin] UserLogin v2.13.1 enabled
+[17:23:59] [Server thread/INFO]: Starting GS4 status listener
+[17:23:59] [Server thread/INFO]: Thread Query Listener started
+[17:23:59] [Server thread/INFO]: Starting remote control listener
+[17:23:59] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[17:23:59] [Server thread/INFO]: Thread RCON Listener started
+[17:23:59] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[17:23:59] [Server thread/INFO]: Running delayed init tasks
+[17:23:59] [Server thread/INFO]: Done (1.806s)! For help, type "help"
+[17:23:59] [Server thread/INFO]: Timings Reset
+[17:23:59] [Craft Scheduler Thread - 2 - UserLogin/INFO]: [UserLogin] Running latest version! (v2.13.1)

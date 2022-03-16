@@ -1,1 +1,1 @@
-java -Xmx2048M -Xms2048M -jar paper-1.18.1-216.jar nogui
+java -jar paper-1.18.1-216.jar nogui
