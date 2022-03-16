@@ -1,10 +1,82 @@
 {
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2022-03-16 17:33:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2022-03-16 17:33:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2022-03-16 17:33:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2022-03-16 17:33:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2022-03-16 17:33:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2022-03-16 17:33:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2022-03-16 17:52:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2022-03-16 17:33:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2022-03-16 17:33:24 -0500"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:beach": "2022-03-16 17:50:15 -0500",
       "minecraft:sparse_jungle": "2022-03-16 17:14:12 -0500",
-      "minecraft:river": "2022-03-16 17:15:10 -0500"
+      "minecraft:river": "2022-03-16 17:15:10 -0500",
+      "minecraft:lukewarm_ocean": "2022-03-16 17:32:57 -0500",
+      "minecraft:ocean": "2022-03-16 17:33:05 -0500",
+      "minecraft:old_growth_birch_forest": "2022-03-16 17:52:11 -0500",
+      "minecraft:savanna": "2022-03-16 17:42:13 -0500",
+      "minecraft:plains": "2022-03-16 17:49:28 -0500"
     },
     "done": false
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2022-03-16 17:33:24 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2022-03-16 17:52:36 -0500"
+    },
+    "done": true
   },
   "DataVersion": 2865
 }
